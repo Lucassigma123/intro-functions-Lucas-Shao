@@ -14,6 +14,7 @@ turtle.clearscreen()
 import turtle
 from turtle import *
 t = Turtle()
+t.speed(2)
 t.shape('turtle')
 t.forward(90)
 t.left(120)
