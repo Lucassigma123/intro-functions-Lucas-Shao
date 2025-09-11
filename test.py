@@ -21,9 +21,4 @@ t.left(120)
 t.forward(90)
 t.left(120)
 t.forward(90)
-turtle.clearscreen()
-import turtle
-from turtle import *
-t = Turtle
-
 turtle.done()
