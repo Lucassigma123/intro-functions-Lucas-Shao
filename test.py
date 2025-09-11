@@ -25,5 +25,15 @@ turtle.clearscreen()
 import turtle
 from turtle import *
 t = Turtle()
-
+t.speed(10000)
+for i in range(60):
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.right(5)
 turtle.done()
