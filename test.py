@@ -40,10 +40,9 @@ turtle.clearscreen()
 import turtle
 from turtle import *
 t = Turtle()
-t.speed(100000000000000)
+t.speed(4)
+length=5
 for i in range(60):
-  length=5
-  length+=5
   t.forward(length)
   t.left(90)    
   t.forward(length) 
@@ -53,10 +52,8 @@ for i in range(60):
   t.forward(length)
   t.left(90)
   t.right(5)
-  
-
-  
-  turtle.done()
+  length += 5
+turtle.done()
 
   
 
