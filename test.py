@@ -59,7 +59,7 @@ from turtle import *
 t = Turtle()
 t.speed(1000000)
 length=5
-for i in range (60):
+for i in range (70):
    t.right(144)
    t.forward(length)
    t.right(144)
