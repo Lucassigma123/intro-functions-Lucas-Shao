@@ -10,7 +10,7 @@ t.left(90)
 t.forward(100)
 t.left(90)
 t.forward(125)
-turtle.clearscreen()
+turtle.clearscreen()# this thingy clears everything
 import turtle
 from turtle import *
 t = Turtle()
@@ -40,8 +40,8 @@ turtle.clearscreen()
 import turtle
 from turtle import *
 t = Turtle()
-t.speed(4)
-length=5
+t.speed(1000000000000000000000)
+length=5 #note from me when setting length set it before the loop
 for i in range(60):
   t.forward(length)
   t.left(90)    
@@ -53,7 +53,27 @@ for i in range(60):
   t.left(90)
   t.right(5)
   length += 5
+turtle.clearscreen()
+import turtle
+from turtle import *
+t = Turtle()
+t.speed(1000000)
+length=5
+for i in range (60):
+   t.right(144)
+   t.forward(length)
+   t.right(144)
+   t.forward(length)
+   t.right(144)
+   t.forward(length)
+   t.right(144)
+   t.forward(length)
+   t.right(144)
+   t.forward(length)
+   t.right(5)
+   length+=5
 turtle.done()
+
 
   
 
